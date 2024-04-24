@@ -1,0 +1,15 @@
+ version: "3.3"
+
+ services:
+   api-students:
+     image: migue1avalos1/api-students
+     ports:
+       - 8000:8000
+   websimple:
+     image: migue1avalos1/websimple
+     ports:
+       - 8080:80
+   salient:
+     image: migue1avalos1/salient
+     ports:
+       - 8081:80
